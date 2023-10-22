@@ -11,7 +11,7 @@ export default function Home() {
                     <li>
                         <a className="text-gray-300 no-underline" href="https://www.linkedin.com/in/philippehenoch/" target="_blank" rel="noopener" aria-label="Linkedin">
                             <Image
-                                src="/linkedin.svg"
+                                src="/portfolio-v2/linkedin.svg"
                                 alt="Linkedin Logo"
                                 className="fill-white"
                                 width={24}
@@ -23,7 +23,7 @@ export default function Home() {
                 </ul>
             </div>
             <Image
-                src="/philippehenoch.jpg"
+                src="/portfolio-v2/philippehenoch.jpg"
                 alt="Philippe Henoch"
                 className="aspect-square rounded-2xl flex-none"
                 width={324}
