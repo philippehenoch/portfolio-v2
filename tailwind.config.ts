@@ -8,12 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        text: ['var(--sf-mono)', 'sans-serif'],
+        title: ['var(--calibre)', 'sans-serif'],
+      },
+      fontSize: {
+        text: "clamp(14px, 5vw, 16px)",
+        title: "clamp(40px, 8vw, 74px)",
+      },
+      colors: {
+        orange: '#fca311',
+        blue: '#14213d',
       },
     },
+
   },
   plugins: [],
 }
